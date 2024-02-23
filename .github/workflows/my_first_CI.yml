@@ -2,9 +2,12 @@ name: My Actions For Python
 run-name: ${{ github.actor }} is testing out GitHub Actions
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "BinarySearch" ]
   pull_request:
     branches: [ "main" ]
+    types:
+      - opened
+      - synchronize
 
   workflow_dispatch: 
 
