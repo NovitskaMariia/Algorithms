@@ -1,4 +1,5 @@
 # bynary search algoritmth
+# O(log n) - fast algorithm
 
 def binary_search (lst, item):
     low = 0

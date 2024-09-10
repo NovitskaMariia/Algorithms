@@ -1,5 +1,5 @@
 # Selection sort
-# O(n**2)
+# O(n**2) - slow algorithm
 
 def find_smallest(arr):
     smallest = arr[0]
